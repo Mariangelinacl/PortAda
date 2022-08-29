@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+/* HEADER */
+header{
+    background-color:lightslategray;
+    
+}
+
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+   
+
+
+}
+
+header nav ul li{
+    list-style: none;
+    margin: 20px;
+    padding: 10px;
+    
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* MAIN */ 
+/* SECTION-MAIN */
+
+.section-main{
+    display: flex;
+    justify-content: space-around;
+    padding: 150px;
+    
+}
+
+.section-main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.section-main-div h2{
+    margin: 10px;
+
+}
+
+.section-main-div h1{
+   margin: 10px;
+}
+
+.section-main-div h3{
+    margin: 15px;
+}
+button{
+    width: 100px;
+    height: 60px;
+    background-color: midnightblue;
+    color: white;
+    border: none;
+    
+    
+}
+/* SECTION-KNOWLEDGES */
+
+.section-knowledges{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.container-knowledges{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+
+}
+.container-knowledges div{
+    margin: 50px;
+    padding: 50px;
+    border: 2px solid lightgrey;
+    background-color: mediumaquamarine;
+    
+}
+
+.container-knowledges div i{
+    font-size: 100px;
+    
+}
+
+.container-blockquote{
+    background-color: cadetblue;
+    padding: 100px;
+    text-align: center;
+    font-size: 25px;
+    
+    
+}
+
+.container-blockquote h3{
+   padding: 30px;
+
+}
