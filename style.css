@@ -3,20 +3,37 @@
     margin: 0;
     box-sizing: border-box;
     
+    
+    
 }
 
 body{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: 'Amaranth', sans-serif;
+font-family: 'Arima Madurai', cursive;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Tiro Telugu', serif;
 }
 /* HEADER */
 header{
-    background-color:lightslategray;
+    background-color:violet;
+    width: 100%;
+    position: fixed;
+    
+   
+    
+    
+   
     
 }
 
 header nav ul{
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+    
+    
+    
+    
    
 
 
@@ -24,14 +41,19 @@ header nav ul{
 
 header nav ul li{
     list-style: none;
-    margin: 20px;
+    margin: 10px;
     padding: 10px;
+    
+    
+    
     
 }
 
 header nav ul li a{
     text-decoration: none;
-    color: aliceblue;
+    color: lightcyan;
+    
+
 }
 
 /* MAIN */ 
@@ -41,6 +63,7 @@ header nav ul li a{
     display: flex;
     justify-content: space-around;
     padding: 150px;
+    background-color: white;
     
 }
 
@@ -48,6 +71,7 @@ header nav ul li a{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 
 }
 
@@ -58,59 +82,221 @@ header nav ul li a{
 
 .section-main-div h1{
    margin: 10px;
+   font-size: 40px;
+   color: rgb(81, 201, 117);
 }
 
 .section-main-div h3{
     margin: 15px;
 }
 button{
-    width: 100px;
-    height: 60px;
-    background-color: midnightblue;
-    color: white;
+    width: 120px;
+    height: 40px;
+    background-color:rgb(81, 201, 117);
     border: none;
-    
-    
+    cursor: pointer;
+    border-radius: 100px;      
+}
+
+button a{
+    text-decoration: none;
+    color: white;
 }
 /* SECTION-KNOWLEDGES */
 
 .section-knowledges{
+    background-color:rgb(238, 231, 231);
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 200px;
     
 
 }
 
 .container-knowledges{
     display: flex;
-    flex-wrap: wrap;
-   justify-content: center;
+    flex-wrap:wrap;
+    justify-content: center;
+   
 
 }
 .container-knowledges div{
     margin: 50px;
     padding: 50px;
-    border: 2px solid lightgrey;
-    background-color: mediumaquamarine;
+    border: 2px solid violet;
+    background-color:white;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10%;
+    
+    
+
+   
+    
     
 }
 
 .container-knowledges div i{
-    font-size: 100px;
+    font-size: 140px;
     
 }
 
-.container-blockquote{
-    background-color: cadetblue;
+/* SECTION-BLOCKQUOTE */
+
+.section-blockquote{
+    background-color: rgb(81, 201, 117);
     padding: 100px;
     text-align: center;
     font-size: 25px;
-    
+    color: black;
     
 }
 
-.container-blockquote h3{
+.section-blockquote h3{
    padding: 30px;
 
 }
+
+
+/* SECTION-PROJECTS */
+
+.section-projects{
+   text-align: center;
+   padding: 50px;
+   margin: 50px;
+  
+   
+
+}
+.section-projects h2{
+    margin: 20px;
+    
+}
+
+.section-projects p{
+    padding: 20px;
+    margin: 20px;
+}
+
+.container-projects{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+   
+}
+
+.container-projects div{
+    margin: 50px;
+    padding: 50px;
+    border: 2px solid rgb(81, 201, 117);
+    height: 300px;
+    width: 300px;
+    display: flex;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:rgb(245, 191, 245);
+    border-radius: 5%;
+    cursor: pointer;
+
+}
+
+.container-projects div img{
+    width: 230px;
+}
+
+/* SECTION-CONTACTS*/
+
+.section-contacts{
+    padding: 250px;
+    display: flex;
+    background-color: rgb(205, 255, 224);
+    justify-content: space-around;
+    border: 2px solid lightgrey;
+    border-radius: 10%;
+   
+    
+}
+
+.container-contacts i{
+    background-color:white;
+    border-radius: 100%;
+    padding: 5px;
+    cursor: pointer;
+   
+    border: 1px solid black;
+   
+    
+    
+    
+}
+
+.container-contacts *{
+    padding: 10px;
+    list-style: none;
+
+}
+
+
+/* FOOTER */
+
+footer{
+background-color: gray;
+padding: 65px;
+text-align: center;
+
+
+
+
+}
+
+.footer-list{
+    display: flex;
+    justify-content: center;
+
+    
+   
+}  
+
+.footer-list a{
+    text-decoration: none;
+    color: black;
+}
+
+footer ul li{
+margin: 10px;
+list-style: none;
+
+
+
+
+}
+
+.footer-list-i{
+    display: flex;
+    justify-content: center;
+    color: rgb(21, 128, 0);
+    padding: 25px;
+    
+    
+}
+
+.footer-list-i i{
+    background-color: black;
+    border-radius: 100%;
+    padding: 15px;
+    cursor: pointer;
+    
+    
+}
+@media (max-width: 600px) {
+    body{
+        display: block;
+    }
+    }
