@@ -2,9 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
-    
-    
+    scroll-behavior:smooth;
 }
 
 body{
@@ -13,16 +11,13 @@ font-family: 'Arima Madurai', cursive;
 font-family: 'Philosopher', sans-serif;
 font-family: 'Tiro Telugu', serif;
 }
+
 /* HEADER */
+
 header{
     background-color:violet;
     width: 100%;
-    position: fixed;
-    
-   
-    
-    
-   
+    position: fixed;  
     
 }
 
@@ -30,31 +25,19 @@ header nav ul{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    
-    
-    
-    
-   
-
-
 }
 
 header nav ul li{
     list-style: none;
     margin: 10px;
     padding: 10px;
-    
-    
-    
-    
 }
 
 header nav ul li a{
     text-decoration: none;
     color: lightcyan;
-    
-
 }
+
 
 /* MAIN */ 
 /* SECTION-MAIN */
@@ -63,8 +46,7 @@ header nav ul li a{
     display: flex;
     justify-content: space-around;
     padding: 150px;
-    background-color: white;
-    
+    background-color: white;  
 }
 
 .section-main-div{
@@ -72,12 +54,10 @@ header nav ul li a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .section-main-div h2{
     margin: 10px;
-
 }
 
 .section-main-div h1{
@@ -88,7 +68,12 @@ header nav ul li a{
 
 .section-main-div h3{
     margin: 15px;
-}
+ }
+
+ .section-main-img img{
+    height: 450px;
+
+ }
 button{
     width: 120px;
     height: 40px;
@@ -102,6 +87,12 @@ button a{
     text-decoration: none;
     color: white;
 }
+
+.section-main-div button{
+    background-color: rgb(255, 0, 221);
+    }
+
+
 /* SECTION-KNOWLEDGES */
 
 .section-knowledges{
@@ -109,22 +100,27 @@ button a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 200px;
-    
+    padding: 100px;
+}
 
+.section-knowledges p{
+    padding: 20px;
+    
+}
+h2{
+    font-size: 40px;
 }
 
 .container-knowledges{
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
-   
-
 }
+
 .container-knowledges div{
-    margin: 50px;
-    padding: 50px;
-    border: 2px solid violet;
+    margin: 20px;
+    padding: 40px;
+    border: 2px solid rgb(255, 0, 221);
     background-color:white;
     height: 250px;
     width: 250px;
@@ -132,18 +128,12 @@ button a{
     flex-direction: column;
     text-align: center;
     border-radius: 10%;
-    
-    
-
-   
-    
-    
 }
 
 .container-knowledges div i{
     font-size: 140px;
-    
 }
+
 
 /* SECTION-BLOCKQUOTE */
 
@@ -153,12 +143,10 @@ button a{
     text-align: center;
     font-size: 25px;
     color: black;
-    
 }
 
 .section-blockquote h3{
    padding: 30px;
-
 }
 
 
@@ -166,137 +154,190 @@ button a{
 
 .section-projects{
    text-align: center;
-   padding: 50px;
-   margin: 50px;
-  
-   
-
-}
-.section-projects h2{
-    margin: 20px;
-    
+   padding: 100px;
 }
 
 .section-projects p{
     padding: 20px;
-    margin: 20px;
 }
 
 .container-projects{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    
-   
+    justify-content: center;
 }
 
 .container-projects div{
-    margin: 50px;
+    margin: 20px;
     padding: 50px;
     border: 2px solid rgb(81, 201, 117);
+    background-color:rgb(245, 191, 245);
     height: 300px;
     width: 300px;
-    display: flex;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    background-color:rgb(245, 191, 245);
+    justify-content: space-evenly;
     border-radius: 5%;
-    cursor: pointer;
-
+    cursor: pointer; 
 }
 
 .container-projects div img{
     width: 230px;
 }
 
+
 /* SECTION-CONTACTS*/
 
 .section-contacts{
-    padding: 250px;
+    min-height: 700px;
+    width: 80%;
+    padding: 50px;
+    margin: 150px;
     display: flex;
-    background-color: rgb(205, 255, 224);
-    justify-content: space-around;
-    border: 2px solid lightgrey;
+    background-color: rgb(177, 241, 177);
+    border: 2px solid rgb(255, 0, 221);
     border-radius: 10%;
-   
     
-}
 
+}
+   
+/* .container-contacts{
+    
+    margin-right: 150px;
+    
+} */
 .container-contacts i{
     background-color:white;
     border-radius: 100%;
     padding: 5px;
     cursor: pointer;
-   
-    border: 1px solid black;
-   
     
     
     
 }
+.container-contacts{
+padding-right: 80px;
 
+}
 .container-contacts *{
     padding: 10px;
     list-style: none;
-
+    text-decoration: none;
+    margin-right: 10px;
 }
 
 
+.container-form {
+    display: flex;
+    flex-direction: column;
+margin: 10px;
+}
+
+.form-first{
+    display: flex;
+
+
+
+}
+.label1{
+    display: flex;
+    flex-direction: column;
+}
+
+#id-name{
+    height: 30px;
+    width: 200px;
+}
+
+.label2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+#id-lastname{
+    height: 30px;
+    width: 200px;
+}
+.label3{
+    display: flex;
+    flex-direction: column;
+}
+
+#id-email{
+    height: 30px;
+    width: 430px;
+}
+#id-mensaje{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 350px;
+}
 /* FOOTER */
 
 footer{
-background-color: gray;
+background-color: rgb(255, 0, 221);
 padding: 65px;
 text-align: center;
-
-
-
-
+color: white;
 }
 
 .footer-list{
     display: flex;
     justify-content: center;
-
-    
-   
 }  
 
 .footer-list a{
     text-decoration: none;
-    color: black;
+    color: white; 
 }
 
 footer ul li{
 margin: 10px;
 list-style: none;
-
-
-
-
 }
 
 .footer-list-i{
     display: flex;
     justify-content: center;
-    color: rgb(21, 128, 0);
     padding: 25px;
-    
-    
 }
 
 .footer-list-i i{
-    background-color: black;
+    background-color: rgb(53, 190, 87);
     border-radius: 100%;
-    padding: 15px;
+    padding: 14px;
     cursor: pointer;
-    
-    
-}
-@media (max-width: 600px) {
-    body{
-        display: block;
+    color: white;
+    font-size: 20px;
     }
+    
+
+    /* Resposive Design */
+
+ @media (max-width:880px){
+    header{
+        display: none;
+    }
+    .section-main{
+        flex-direction: column;
+    }
+
+    .section-contacts{
+        flex-direction: column;
+    }
+
+
+    }
+
+    @media screen and (min-width:320px) and (max-width:480px){
+        .section-main-img img{
+            height: 300px;
+        }
+        .section-contacts{
+            margin: 80px;
+
+        }
     }
