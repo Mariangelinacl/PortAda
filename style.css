@@ -18,7 +18,8 @@ header{
     background-color:violet;
     width: 100%;
     position: fixed;  
-    
+ 
+   
 }
 
 header nav ul{
@@ -58,16 +59,25 @@ header nav ul li a{
 
 .section-main-div h2{
     margin: 10px;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .section-main-div h1{
    margin: 10px;
    font-size: 40px;
    color: rgb(81, 201, 117);
+   justify-content: center;
+    align-items: center;
+
 }
 
 .section-main-div h3{
     margin: 15px;
+    justify-content: center;
+    align-items: center;
+
  }
 
  .section-main-img img{
@@ -80,7 +90,8 @@ button{
     background-color:rgb(81, 201, 117);
     border: none;
     cursor: pointer;
-    border-radius: 100px;      
+    border-radius: 100px;    
+    
 }
 
 button a{
@@ -90,6 +101,8 @@ button a{
 
 .section-main-div button{
     background-color: rgb(255, 0, 221);
+    margin: 40px;  
+    
     }
 
 
@@ -199,56 +212,56 @@ h2{
     background-color: rgb(177, 241, 177);
     border: 2px solid rgb(255, 0, 221);
     border-radius: 10%;
+    justify-content: center;
     
 
 }
    
-/* .container-contacts{
-    
-    margin-right: 150px;
-    
-} */
-.container-contacts i{
-    background-color:white;
-    border-radius: 100%;
-    padding: 5px;
-    cursor: pointer;
-    
-    
-    
-}
 .container-contacts{
-padding-right: 80px;
-
+    padding-right: 80px;
+  
 }
+    
+.container-contacts i{
+    padding: 10px;
+    cursor: pointer;
+    color: rgb(255, 0, 221);
+    font-size: 25px;
+}
+
+
 .container-contacts *{
     padding: 10px;
     list-style: none;
     text-decoration: none;
     margin-right: 10px;
+    color: black;
 }
 
 
 .container-form {
     display: flex;
     flex-direction: column;
-margin: 10px;
+    margin: 10px;
 }
 
 .form-first{
     display: flex;
-
-
-
 }
 .label1{
     display: flex;
     flex-direction: column;
+    
 }
 
 #id-name{
     height: 30px;
     width: 200px;
+    background-color: violet;
+    border-radius: 20px;
+    border: none;
+    padding-left: 10px;
+    
 }
 
 .label2{
@@ -259,6 +272,10 @@ margin: 10px;
 #id-lastname{
     height: 30px;
     width: 200px;
+    background-color: violet;
+    border-radius: 20px;
+    border: none;
+    padding-left: 10px;
 }
 .label3{
     display: flex;
@@ -268,12 +285,21 @@ margin: 10px;
 #id-email{
     height: 30px;
     width: 430px;
+    background-color: violet;
+    border-radius: 20px;
+    border: none;
+    padding-left: 10px;
 }
 #id-mensaje{
     display: flex;
     flex-direction: column;
     height: 100px;
-    width: 350px;
+    width: 430px;
+    background-color: violet;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 8px;
+    
 }
 /* FOOTER */
 
@@ -292,6 +318,7 @@ color: white;
 .footer-list a{
     text-decoration: none;
     color: white; 
+    
 }
 
 footer ul li{
@@ -317,27 +344,39 @@ list-style: none;
 
     /* Resposive Design */
 
- @media (max-width:880px){
+    @media screen and (min-width:480px) and (max-width:768px){
     header{
         display: none;
     }
     .section-main{
         flex-direction: column;
     }
-
+    
     .section-contacts{
         flex-direction: column;
     }
+    .section-main-img img{
+        height: 400px;
+        justify-content: center;
+        align-items: center;
+        }
 
-
-    }
+}
 
     @media screen and (min-width:320px) and (max-width:480px){
+        header{
+            display: none;}
+
         .section-main-img img{
             height: 300px;
+            justify-content: center;
+            align-items: center;
         }
         .section-contacts{
             margin: 80px;
+}
+.container-form {
+    flex-direction: column;
 
-        }
+    }
     }
