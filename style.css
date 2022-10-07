@@ -15,11 +15,9 @@ font-family: 'Tiro Telugu', serif;
 /* HEADER */
 
 header{
-    background-color:violet;
+    background-color:rgb(255, 0, 221);
     width: 100%;
     position: fixed;  
- 
-   
 }
 
 header nav ul{
@@ -41,6 +39,8 @@ header nav ul li a{
 
 
 /* MAIN */ 
+
+
 /* SECTION-MAIN */
 
 .section-main{
@@ -61,7 +61,6 @@ header nav ul li a{
     margin: 10px;
     justify-content: center;
     align-items: center;
-
 }
 
 .section-main-div h1{
@@ -70,28 +69,25 @@ header nav ul li a{
    color: rgb(81, 201, 117);
    justify-content: center;
     align-items: center;
-
 }
 
 .section-main-div h3{
     margin: 15px;
     justify-content: center;
     align-items: center;
-
  }
 
  .section-main-img img{
     height: 450px;
-
  }
+
 button{
     width: 120px;
     height: 40px;
     background-color:rgb(81, 201, 117);
     border: none;
     cursor: pointer;
-    border-radius: 100px;    
-    
+    border-radius: 100px;      
 }
 
 button a{
@@ -102,9 +98,8 @@ button a{
 .section-main-div button{
     background-color: rgb(255, 0, 221);
     margin: 40px;  
+}
     
-    }
-
 
 /* SECTION-KNOWLEDGES */
 
@@ -114,12 +109,13 @@ button a{
     flex-direction: column;
     align-items: center;
     padding: 100px;
+    text-align: center;
 }
 
 .section-knowledges p{
-    padding: 20px;
-    
+    padding: 20px; 
 }
+
 h2{
     font-size: 40px;
 }
@@ -185,7 +181,7 @@ h2{
     margin: 20px;
     padding: 50px;
     border: 2px solid rgb(81, 201, 117);
-    background-color:rgb(245, 191, 245);
+    background-color:violet;
     height: 300px;
     width: 300px;
     text-align: center;
@@ -204,32 +200,34 @@ h2{
 /* SECTION-CONTACTS*/
 
 .section-contacts{
-    min-height: 700px;
-    width: 80%;
-    padding: 50px;
-    margin: 150px;
+    min-height: 100vh;
+    background-color:rgb(238, 231, 231);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.container-contacts-form{
+    width: 900px;
+    height: 650px;
     display: flex;
     background-color: rgb(177, 241, 177);
     border: 2px solid rgb(255, 0, 221);
     border-radius: 10%;
-    justify-content: center;
-    
-
+    justify-content:space-evenly;
+    padding: 30px;
 }
-   
+    
 .container-contacts{
-    padding-right: 80px;
-  
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    padding-left: 5px;
 }
     
-.container-contacts i{
-    padding: 10px;
-    cursor: pointer;
-    color: rgb(255, 0, 221);
-    font-size: 25px;
-}
-
-
 .container-contacts *{
     padding: 10px;
     list-style: none;
@@ -238,6 +236,12 @@ h2{
     color: black;
 }
 
+.container-contacts i{
+    padding: 10px;
+    cursor: pointer;
+    color: rgb(255, 0, 221);
+    font-size: 25px;
+}
 
 .container-form {
     display: flex;
@@ -248,10 +252,10 @@ h2{
 .form-first{
     display: flex;
 }
+
 .label1{
     display: flex;
     flex-direction: column;
-    
 }
 
 #id-name{
@@ -261,7 +265,6 @@ h2{
     border-radius: 20px;
     border: none;
     padding-left: 10px;
-    
 }
 
 .label2{
@@ -269,6 +272,7 @@ h2{
     flex-direction: column;
     margin-left: 30px;
 }
+
 #id-lastname{
     height: 30px;
     width: 200px;
@@ -277,6 +281,7 @@ h2{
     border: none;
     padding-left: 10px;
 }
+
 .label3{
     display: flex;
     flex-direction: column;
@@ -290,6 +295,7 @@ h2{
     border: none;
     padding-left: 10px;
 }
+
 #id-mensaje{
     display: flex;
     flex-direction: column;
@@ -299,8 +305,24 @@ h2{
     border-radius: 20px;
     border: none;
     padding: 10px 8px;
-    
 }
+
+.submit-button{
+    padding-top: 25px;
+     
+}
+
+#submit-button{
+        width: 80px;
+        height: 30px;
+        background-color:rgb(255, 0, 221);
+        border: none;
+        cursor: pointer;
+        border-radius: 100px;
+        color: white;
+}
+    
+    
 /* FOOTER */
 
 footer{
@@ -318,7 +340,6 @@ color: white;
 .footer-list a{
     text-decoration: none;
     color: white; 
-    
 }
 
 footer ul li{
@@ -339,44 +360,67 @@ list-style: none;
     cursor: pointer;
     color: white;
     font-size: 20px;
-    }
+}
     
 
     /* Resposive Design */
 
-    @media screen and (min-width:480px) and (max-width:768px){
+    @media (max-width:880px){
     header{
         display: none;
     }
     .section-main{
         flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        background-color: rgb(255, 0, 221);
+        
     }
-    
-    .section-contacts{
+
+    .section-main-div h1{
+        font-size: 60px;
+        color:white;
+        text-shadow: 0px 0px 20px rgb(250, 0, 0);
+    }
+    .container-contacts-form{
         flex-direction: column;
+        width: 700px;
+        height: 1000px;
     }
+
+    .section-main-div button{
+        background-color:rgb(53, 190, 87);
+        width: 200px;
+        
+    }
+   
     .section-main-img img{
         height: 400px;
-        justify-content: center;
         align-items: center;
-        }
+        padding-top: 40px;
 
+        }
 }
 
-    @media screen and (min-width:320px) and (max-width:480px){
+
+@media (max-width:480px) {
         header{
             display: none;}
 
         .section-main-img img{
             height: 300px;
-            justify-content: center;
-            align-items: center;
+           
         }
-        .section-contacts{
-            margin: 80px;
-}
-.container-form {
-    flex-direction: column;
+        .container-contacts-form{
+            flex-direction: column;
+            width: 480px;
+            height: 1000px;
+            border: none;
+           border-radius: 0%;
+    } 
+    .section-projects{
+        background-color:rgb(238, 231, 231);
 
     }
+    
     }
