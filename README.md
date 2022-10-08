@@ -1,21 +1,21 @@
-#Portafolio Mariangelina Cuevas
+# Portafolio Mariangelina Cuevas
 
 Portafolio personal, donde puede conocer acerca de mis `conocimientos` y `experiencia`, así como una sección con mis `RR. SS` e `información`vpara comunicarse conmigo.
 
-##Información
+## Información
 
 El proyecto fue realizado con `HTML5` y `CSS`.
 
 Se realiza como un proyecto para Desktop con diseño `resposive` para Tablet y Mobile con dos breakpoints respectivamente.
 
-##Media Queris
+## Media Queris
 
 Breakpoints:
 
-###Tablet 
+### Tablet 
 
 - max-width:880px
 
-###Mobile
+###M obile
 
 - max-width:450px
