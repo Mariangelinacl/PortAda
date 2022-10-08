@@ -1,6 +1,6 @@
 # Portafolio Mariangelina Cuevas
 
-Portafolio personal, donde puede conocer acerca de mis `conocimientos` y `experiencia`, así como una sección con mis `RR. SS` e `información`vpara comunicarse conmigo.
+Portafolio personal, donde puede conocer acerca de mis `conocimientos` y `experiencia`, así como una sección con mis `RR. SS` e `información`para comunicarse conmigo.
 
 ## Información
 
@@ -16,6 +16,6 @@ Breakpoints:
 
 - max-width:880px
 
-###M obile
+### Mobile
 
 - max-width:450px
