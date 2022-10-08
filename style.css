@@ -141,6 +141,31 @@ h2{
 
 .container-knowledges div i{
     font-size: 140px;
+    
+}
+
+.HTML5{
+    color: #e54d26;
+} 
+
+.CSS3{
+    color: #3d8fc6;
+}
+
+.Sass{
+    color: #c69;
+}
+
+.JavaScript{
+color: rgba(231, 220, 63, 0.863);
+}
+
+.React{
+color: rgb(51, 214, 214);
+}
+
+.GIT{
+    color: #f34f29;
 }
 
 
@@ -376,6 +401,8 @@ list-style: none;
 
     /* Resposive Design */
 
+    /* TABLET */
+
     @media (max-width:880px){
     header{
         display: none;
@@ -385,7 +412,7 @@ list-style: none;
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        background-color: rgb(255, 0, 221);  
+        background-color: rgb(255, 0, 221); 
     }
 
     .section-main-div h1{
@@ -410,7 +437,7 @@ list-style: none;
         padding-top: 40px;
     }
 }
-
+       /* MOBILE */
 
     @media (max-width:450px) {
     header{
@@ -418,8 +445,8 @@ list-style: none;
     }
 
     .section-main-img img{
-        height: 300px;
-        align-items: center;
+        display: none;
+       
     }
 
     .container-contacts-form{
@@ -455,6 +482,6 @@ list-style: none;
     }
 
     .footer-list a{
-        font-size: 15px;
+        font-size: 10px;
     }
 }
