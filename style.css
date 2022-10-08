@@ -15,7 +15,7 @@ font-family: 'Tiro Telugu', serif;
 /* HEADER */
 
 header{
-    background-color:rgb(255, 0, 221);
+    background-color:purple;
     width: 100%;
     position: fixed;  
 }
@@ -96,7 +96,7 @@ button a{
 }
 
 .section-main-div button{
-    background-color: rgb(255, 0, 221);
+    background-color: purple;
     margin: 40px;  
 }
     
@@ -129,7 +129,7 @@ h2{
 .container-knowledges div{
     margin: 20px;
     padding: 40px;
-    border: 2px solid rgb(255, 0, 221);
+    border: 2px solid purple;
     background-color:white;
     height: 250px;
     width: 250px;
@@ -177,7 +177,7 @@ color: rgb(51, 214, 214);
     text-align: center;
     font-size: 25px;
     color: white;
-    text-shadow: 0px 0px 20px rgb(255, 0, 221);
+    text-shadow: 0px 0px 20px purple;
     font-style: oblique;
 }
 
@@ -190,7 +190,7 @@ color: rgb(51, 214, 214);
     font-size: 100px;
     padding-bottom: 40px;
     text-shadow: white;
-    color:rgb(255, 0, 221);
+    color:purple;
     
 }
 
@@ -217,7 +217,7 @@ color: rgb(51, 214, 214);
     margin: 20px;
     padding: 50px;
     border: 2px solid rgb(81, 201, 117);
-    background-color:violet;
+    background-color:plum;
     height: 300px;
     width: 300px;
     text-align: center;
@@ -250,7 +250,7 @@ color: rgb(51, 214, 214);
     height: 650px;
     display: flex;
     background-color: rgb(177, 241, 177);
-    border: 2px solid rgb(255, 0, 221);
+    border: 2px solid purple;
     border-radius: 10%;
     justify-content:space-evenly;
     padding: 30px;
@@ -275,7 +275,7 @@ color: rgb(51, 214, 214);
 .container-contacts i{
     padding: 10px;
     cursor: pointer;
-    color: rgb(255, 0, 221);
+    color: purple;
     font-size: 25px;
 }
 
@@ -297,7 +297,7 @@ color: rgb(51, 214, 214);
 #id-name{
     height: 30px;
     width: 200px;
-    background-color: violet;
+    background-color:plum;
     border-radius: 20px;
     border: none;
     padding-left: 10px;
@@ -312,7 +312,7 @@ color: rgb(51, 214, 214);
 #id-lastname{
     height: 30px;
     width: 200px;
-    background-color: violet;
+    background-color: plum;
     border-radius: 20px;
     border: none;
     padding-left: 10px;
@@ -326,7 +326,7 @@ color: rgb(51, 214, 214);
 #id-email{
     height: 30px;
     width: 430px;
-    background-color: violet;
+    background-color: plum;
     border-radius: 20px;
     border: none;
     padding-left: 10px;
@@ -337,7 +337,7 @@ color: rgb(51, 214, 214);
     width: 430px;
     display: flex;
     flex-direction: column;
-    background-color: violet;
+    background-color: plum;
     border-radius: 20px;
     border: none;
     padding: 10px 8px;
@@ -351,7 +351,7 @@ color: rgb(51, 214, 214);
 #submit-button{
         width: 80px;
         height: 30px;
-        background-color:rgb(255, 0, 221);
+        background-color:purple;
         border: none;
         cursor: pointer;
         border-radius: 100px;
@@ -362,7 +362,7 @@ color: rgb(51, 214, 214);
 /* FOOTER */
 
 footer{
-background-color: rgb(255, 0, 221);
+background-color: purple;
 padding: 65px;
 text-align: center;
 color: white;
@@ -412,7 +412,7 @@ list-style: none;
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        background-color: rgb(255, 0, 221); 
+        background-color: purple;
     }
 
     .section-main-div h1{
@@ -484,4 +484,5 @@ list-style: none;
     .footer-list a{
         font-size: 10px;
     }
-}
+
+    }
